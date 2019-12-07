@@ -1,3 +1,4 @@
 packages
 /MusicStore/bin
 /MusicStore/obj
+/MusicStore/*.user

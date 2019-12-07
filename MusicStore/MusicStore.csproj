@@ -312,8 +312,6 @@
     <Compile Include="Models\DataModels\Genre.cs" />
     <Compile Include="Models\DataModels\Panier.cs" />
     <Compile Include="Models\DataModels\Utilisateur.cs" />
-    <Compile Include="Models\ViewModels\Album\NePasSuprimerMaisIgnorer.cs" />
-    <Compile Include="Models\ViewModels\NePasSuprimerMaisIgnorer.cs" />
     <Compile Include="Models\ViewModels\Utilisateur\Inscription.cs" />
     <Compile Include="Models\ViewModels\Utilisateur\Login.cs" />
     <Compile Include="Models\ViewModels\Utilisateur\ModifierProfil.cs" />
@@ -337,7 +335,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Models\ViewModels\Album\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,10 +1,8 @@
 ﻿namespace MusicStore.Controllers {
-    using System.Collections.Generic;
     using System.Data.SqlClient;
     using System.Web.Mvc;
     using System.Web.Security;
     using MusicStore.Models;
-    using MusicStore.Models.DAL;
     using MusicStore.Models.DataModels;
     using MusicStore.Models.ViewModels.Utilisateur;
 
